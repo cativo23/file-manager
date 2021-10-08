@@ -60,6 +60,7 @@ return [
             'endpoint' => env('AWS_ENDPOINT'),
             'region' => env('AWS_DEFAULT_REGION'),
             'bucket' => env('AWS_BUCKET'),
+            'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', true),
         ],
     ],
 
